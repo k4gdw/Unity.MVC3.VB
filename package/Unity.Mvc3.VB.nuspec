@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <version>1.0</version>
-    <authors>Bryan Johns</authors>
-    <owners>DevTrends</owners>
+    <version>1.0.1</version>
+    <authors>Paul Hiles (the DLL and original C# bootstraper), Bryan Johns (the vb.net bootstraper)</authors>
+    <owners>DevTrends, K4GDW</owners>
     <licenseUrl>http://unitymvc3.codeplex.com/license</licenseUrl>
     <projectUrl>http://unitymvc3.codeplex.com/</projectUrl>
     <dependencies>
@@ -12,7 +12,7 @@
     <id>Unity.Mvc3.VB</id>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Unity.Mvc3.VB VB.Net implementation of the code portions of Unity.MVC3 which is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET MVC 3.</description>
-    <releaseNotes>Converted the Bootstrapper to VB.Net and made minor edits to the README file to reflect those changes.</releaseNotes>
+    <releaseNotes>updated the authors and owners data to give credit to the original C# author.</releaseNotes>
     <tags>unity asp.net mvc mvc3</tags>
   </metadata>
   <files>
