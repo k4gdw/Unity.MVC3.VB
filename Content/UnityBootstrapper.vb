@@ -56,8 +56,6 @@ Public NotInheritable Class UnityBootstrapper
 		' register all your components with the container here
 		' e.g. container.RegisterType<ITestService, TestService>();            
 
-		container.RegisterControllers()
-
 		Return container
 	End Function
 End Class

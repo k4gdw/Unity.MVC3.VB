@@ -1,22 +1,23 @@
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <version>1.0.1</version>
-    <authors>Paul Hiles (the DLL and original C# bootstraper), Bryan Johns (the vb.net bootstraper)</authors>
-    <owners>DevTrends, K4GDW</owners>
-    <licenseUrl>http://unitymvc3.codeplex.com/license</licenseUrl>
-    <projectUrl>http://unitymvc3.codeplex.com/</projectUrl>
-    <dependencies>
-      <dependency id="Unity.Mvc3.DLL" />
-    </dependencies>
-    <id>Unity.Mvc3.VB</id>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Unity.Mvc3.VB VB.Net implementation of the code portions of Unity.MVC3 which is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET MVC 3.</description>
-    <releaseNotes>updated the authors and owners data to give credit to the original C# author.</releaseNotes>
-    <tags>unity asp.net mvc mvc3</tags>
-  </metadata>
-  <files>
-    <file src="..\content\UnityBootstrapper.vb" target="content\UnityBootstrapper.vb" />
-    <file src="..\content\Unity.Mvc3.README.txt" target="content\Unity.Mvc3.README.txt" />
-  </files>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Unity.Mvc3.VB</id>
+        <version>1.2.0.1</version>
+        <authors>Paul Hiles (the DLL and original C# bootstraper),Bryan Johns (the vb.net bootstraper)</authors>
+        <owners>DevTrends,K4GDW</owners>
+        <licenseUrl>http://unitymvc3.codeplex.com/license</licenseUrl>
+        <projectUrl>http://unitymvc3.codeplex.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Unity.Mvc3.VB VB.Net implementation of the code portions of Unity.MVC3 which is a library that allows simple Integration of Microsoft's Unity IoC container with ASP.NET MVC 3.</description>
+        <releaseNotes>Moved the Unity.Mvc3.README.txt file into App_ReadMe.  Removed obsolete call to container.RegisterControllers from the bootstrapper.</releaseNotes>
+        <tags>unity asp.net mvc mvc3</tags>
+        <dependencies>
+            <dependency id="Unity.MVC3" version="1.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\content\Unity.Mvc3.README.txt" target="content\App_Readme\Unity.Mvc3.README.txt" />
+        <file src="..\content\UnityBootstrapper.vb" target="content\UnityBootstrapper.vb" />
+        <file src="..\tools\install.ps1" target="tools\install.ps1" />
+    </files>
 </package>
