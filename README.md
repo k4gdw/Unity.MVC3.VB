@@ -1,5 +1,5 @@
 Unity.MVC3.VB
--------------
+=============
 
 This is a VB.Net version of the Bootstrapper found in the Unity.Mvc3
 package available from  NuGet.   It  depends  on  my  Unity.Mvc3.DLL
@@ -20,9 +20,9 @@ components.
 There is code in the bootstrapper to initialise the Unity  container
 and register  all  the  controllers  in  the  current assembly.  Any
 components  that  you need  to  inject  should be registered in  the
-BuildUnityContainer method of the Bootstrapper.  All components  that
-implement the IDisposable interface should  be  registered  with  the
-HierarchicalLifetimeManager to ensure that  they are  disposed of  at
+BuildUnityContainer method of the Bootstrapper.  All components that
+implement the IDisposable interface should  be  registered  with the
+HierarchicalLifetimeManager to ensure that  they are  disposed of at
 the end of the request.
 
 You can find out more about Unity.Mvc3 by visiting:
